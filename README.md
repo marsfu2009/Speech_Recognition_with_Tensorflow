@@ -2,6 +2,14 @@
 Implementation of a seq2seq model for speech recognition. Architecture similar to "Listen, Attend and Spell".
 https://arxiv.org/pdf/1508.01211.pdf
 
+![alt text](https://github.com/thomasschmied/Speech_Recognition_with_Tensorflow/blob/master/imgs/seventeen_twenty_four.png)
+```
+Created: ['S', 'E', 'V', 'E', 'N', 'T', 'E', 'E', 'N', '<SPACE>', 'T', 'W', 'E', 'N', 'T', 'Y', '<SPACE>', 'F', 'O', 'U', 'R']
+Actual: ['S', 'E', 'V', 'E', 'N', 'T', 'E', 'E', 'N', '<SPACE>', 'T', 'W', 'E', 'N', 'T', 'Y', '<SPACE>', 'F', 'O', 'U', 'R']
+```
+
+
+
 ## Prerequisites
 - Tensorflow
 - numpy
